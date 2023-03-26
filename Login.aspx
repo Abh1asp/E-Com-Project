@@ -12,6 +12,7 @@
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
+        <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
@@ -19,9 +20,13 @@
         <td>
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         </td>
+        <td>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="*type username"></asp:RequiredFieldValidator>
+        </td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
@@ -29,11 +34,15 @@
         <td class="auto-style1">&nbsp;</td>
         <td>Password</td>
         <td>
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+        </td>
+        <td>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="*type password"></asp:RequiredFieldValidator>
         </td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
@@ -41,11 +50,14 @@
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
         <td>
-            <asp:Button ID="Button1" runat="server" Text="Log In" />
+            <asp:Button ID="Button1" runat="server" Text="Log In" OnClick="Button1_Click" />
         </td>
+        <td>
+            &nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
@@ -55,34 +67,26 @@
         <td>Not a user?
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UserReg.aspx">Register</asp:HyperLink>
         </td>
-    </tr>
-    <tr>
-        <td class="auto-style1">&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td class="auto-style1">&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>
+            <asp:Label ID="Label1" runat="server"></asp:Label>
+        </td>
+        <td>
+            &nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
@@ -90,19 +94,11 @@
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td class="auto-style1">&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
@@ -110,9 +106,41 @@
         <td class="auto-style1">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
+        <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style1">&nbsp;</td>
+        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>

@@ -14,7 +14,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Tropiko</title>
+  <title>EatFast</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -42,7 +42,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" /><span>
-              Tropiko
+              EatFast
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -54,7 +54,7 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="Login.aspx">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="Login.aspx"> Login</a>
@@ -72,7 +72,7 @@
             </div>
             <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
               <a href="">
-                Get A quote
+                Subscribe
               </a>
             </div>
           </div>
@@ -517,107 +517,107 @@
   <!-- end contact section -->
 
 
-  <!-- map section -->
+  <%--<!-- map section -->
   <section class="map_section">
     <div id="map" class="h-100 w-100 ">
     </div>
   </section>
 
-  <!-- end map section -->
+  <!-- end map section -->--%>
 
   <section class="info_section layout_padding">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <h5>
-            Fruits
+            Hotels
           </h5>
           <ul>
             <li>
-              randomised
+              Al-Reem
             </li>
             <li>
-              words which
+              Slice of Spice
             </li>
             <li>
-              don't look even
+              Majlis
             </li>
             <li>
-              slightly
+              Paragon
             </li>
             <li>
-              believable. If you
+              MRF
             </li>
             <li>
-              are going to use
+              Soofi
             </li>
             <li>
-              a passage of
+              Thaal
             </li>
             <li>
-              Lorem Ipsum,
+              UAE
             </li>
           </ul>
         </div>
         <div class="col-md-3">
           <h5>
-            Services
+            Bakeries
           </h5>
           <ul>
             <li>
-              randomised
+              KR Bakers
             </li>
             <li>
-              words which
+              Kamala Bakery
             </li>
             <li>
-              don't look even
+              Geo Bakery
             </li>
             <li>
-              slightly
+              Supreme Bakery
             </li>
             <li>
-              believable. If you
+              Ammas Fresh
             </li>
             <li>
-              are going to use
+              Navya Stores
             </li>
             <li>
-              a passage of
+              Real Bakery
             </li>
             <li>
-              Lorem Ipsum,
+              Moms Bake Hut
             </li>
           </ul>
         </div>
         <div class="col-md-3">
           <h5>
-            List
+            Cafes
           </h5>
           <ul>
             <li>
-              randomised
+              Coco Cafe
             </li>
             <li>
-              words which
+              Cafe One
             </li>
             <li>
-              don't look even
+              Hustoh Resto Cafe
             </li>
             <li>
-              slightly
+              Costa Cafe
             </li>
             <li>
-              believable. If you
+              iCafe
             </li>
             <li>
-              are going to use
+              Plan C Cafe
             </li>
             <li>
-              a passage of
+              Scoopi Cafe
             </li>
             <li>
-              Lorem Ipsum,
+              Hidden Space Cafe
             </li>
           </ul>
         </div>
@@ -674,7 +674,7 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
-  <script>
+  <%--<script>
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.
     function initMap() {
@@ -700,7 +700,7 @@
   <!-- google map js -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
   </script>
-  <!-- end google map js -->
+  <!-- end google map js -->--%>
 
         
     </form>
