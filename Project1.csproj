@@ -101,7 +101,6 @@
     <Content Include="AddProduct.aspx" />
     <Content Include="service.html" />
     <Content Include="ShowDetails.aspx" />
-    <Content Include="UserHome.aspx" />
     <Content Include="UserHomeChild.aspx" />
     <Content Include="UserReg.aspx" />
     <Content Include="Web.config" />
@@ -157,13 +156,6 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
-    <Compile Include="UserHome.aspx.cs">
-      <DependentUpon>UserHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserHome.aspx.designer.cs">
-      <DependentUpon>UserHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserHomeChild.aspx.cs">
       <DependentUpon>UserHomeChild.aspx</DependentUpon>
